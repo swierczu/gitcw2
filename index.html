@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Globalne style */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        line-height: 1.6;
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    header {
+        background-color: #3498db;
+        color: #fff;
+        text-align: center;
+        padding: 30px 20px;
+        border-radius: 8px;
+        margin-bottom: 40px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        color: #2c3e50;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .section {
+        margin-bottom: 40px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #ddd;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    th {
+        background-color: #ecf0f1;
+        color: #2c3e50;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #e3e3e3;
+    }
+
+    /* Przycisk */
+    .btn-toggle {
+        display: inline-block;
+        padding: 12px 25px;
+        background-color: #3498db;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 15px;
+        text-decoration: none;
+    }
+
+    .btn-toggle:hover {
+        background-color: #2980b9;
+    }
+
+    /* Responsywność */
+    @media (max-width: 768px) {
+        body {
+            padding: 0 10px;
+        }
+
+        table {
+            font-size: 0.9rem;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        .section {
+            padding: 15px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Plan Lekcji i Lista Obecności</h1>
+</header>
+
+<main class="content">
+<!-- Sekcja: Plan Lekcji -->
+<section class="section plan-lekcji">
+    <h2>Plan Lekcji na Obecny Semestr</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Dzień</th>
+                <th>Godzina</th>
+                <th>Przedmiot</th>
+                <th>Wykładowca</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Poniedziałek</td>
+                <td>8:00 - 9:30</td>
+                <td>Matematyka</td>
+                <td>dr Nowak</td>
+            </tr>
+            <tr>
+                <td>Wtorek</td>
+                <td>10:00 - 11:30</td>
+                <td>Programowanie</td>
+                <td>mgr Kowalski</td>
+            </tr>
+            <tr>
+                <td>Środa</td>
+                <td>12:00 - 13:30</td>
+                <td>Fizyka</td>
+                <td>dr Zieliński</td>
+            </tr>
+            <tr>
+                <td>Czwartek</td>
+                <td>8:00 - 9:30</td>
+                <td>Biologia</td>
+                <td>mgr Jankowski</td>
+            </tr>
+            <tr>
+                <td>Piątek</td>
+                <td>9:00 - 10:30</td>
+                <td>Historia</td>
+                <td>prof. Szymański</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Sekcja: Lista Obecności -->
+<section class="section lista-obecnosci">
+    <h2>Lista Obecności na Obecny Semestr</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Imię i Nazwisko</th>
+                <th>Numer Indeksu</th>
+                <th>Obecność</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Adam Kowalski</td>
+                <td>1</td>
+                <td>Obecny</td>
+            </tr>
+            <tr>
+                <td>Magda Nowak</td>
+                <td>2</td>
+                <td>Nieobecny</td>
+            </tr>
+            <tr>
+                <td>Janusz Zieliński</td>
+                <td>3</td>
+                <td>Obecny</td>
+            </tr>
+            <tr>
+                <td>Katarzyna Wiśniewska</td>
+                <td>4</td>
+                <td>Obecny</td>
+            </tr>
+            <tr>
+                <td>Łukasz Szymański</td>
+                <td>5</td>
+                <td>Nieobecny</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+</main>
+
+</body>
+</html>
