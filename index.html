@@ -5,22 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semestr w szkole</title>
     <style>
-        body{
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fc;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #4CAF50;
+            font-size: 36px;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 8px;
+        }
+
+        caption {
+            font-size: 2em;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+
+        th, td {
+            padding: 12px 20px;
+            border: 1px solid #ddd;
             text-align: center;
         }
 
-        th, td{
-            border: 1px solid black;
-            margin: 20px;
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
         }
 
-        caption{
-            font-size: xx-large;
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
         }
 
-        table{
-            display: block;
-            margin: 0 auto;
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        td:last-child {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        td:empty {
+            background-color: #f2f2f2;
+        }
+
+        @media (max-width: 768px) {
+            table {
+                width: 95%;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+
+            caption {
+                font-size: 1.5em;
+            }
+        }
+
+        .table-container {
+            margin-top: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4CAF50;
+        }
+
+        a:hover {
+            color: #388E3C;
         }
     </style>
 </head>
