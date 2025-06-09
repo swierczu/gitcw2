@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-09T11:23:34+02:00</lastmod>
+    <lastmod>2025-06-09T12:13:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/pietrzak_tobiasz_lista/</loc>
+    <lastmod>2025-06-09T12:13:20+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-06-09T11:23:34+02:00</lastmod>
+    <lastmod>2025-06-09T12:13:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/pietrzak_tobiasz_plan_lekcji/</loc>
+    <lastmod>2025-06-09T11:57:07+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/test_second_post/</loc>
+    <lastmod>2025-06-09T11:34:41+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/test_post/</loc>
     <lastmod>2025-06-09T11:23:34+02:00</lastmod>
