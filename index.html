@@ -1,190 +1,82 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <title>Plan lekcji i lista obecności</title>
-  <style>
-    :root {
-      --main-color: #f57c00;
-      --light-color: #ffe0b2;
-      --text-color: #333;
-      --bg-color: #fff;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: var(--main-color);
-      color: white;
-      padding: 30px 20px;
-      text-align: center;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 2.2em;
-    }
-
-    main {
-      padding: 30px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    h2 {
-      color: var(--main-color);
-      border-left: 8px solid var(--main-color);
-      padding-left: 10px;
-      margin-top: 40px;
-      background: linear-gradient(to left, #fff2de 20%, #fff 80%);
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-      background-color: white;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    }
-
-    th, td {
-      padding: 12px;
-      border: 1px solid #ddd;
-      text-align: center;
-    }
-
-    th {
-      background-color: var(--light-color);
-      color: var(--text-color);
-    }
-
-    tr:nth-child(even) {
-      background-color: #fafafa;
-    }
-
-    @media (max-width: 768px) {
-      table, thead, tbody, th, td, tr {
-        display: block;
-      }
-
-      th {
-        display: none;
-      }
-
-      td {
-        position: relative;
-        padding-left: 50%;
-        text-align: left;
-      }
-
-      td::before {
-        position: absolute;
-        left: 10px;
-        top: 50%;
-        transform: translateY(-50%);
-        font-weight: bold;
-        content: attr(data-label);
-        color: #888;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-
-  <header>
-    <h1>Plan lekcji i lista obecności – Semestr letni</h1>
-  </header>
-
-  <main>
-    <h2>📅 Plan lekcji</h2>
     <table>
-      <thead>
         <tr>
-          <th>Dzień</th>
-          <th>8:00–9:30</th>
-          <th>9:45–11:15</th>
-          <th>11:30–13:00</th>
-          <th>13:15–14:45</th>
-          <th>15:00–16:30</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Poniedziałek</td>
-          <td>Matematyka</td>
-          <td>J. polski</td>
-          <td>WF</td>
-          <td>Historia</td>
-          <td>—</td>
+            <td></td>
+            <td>pon</td>
+            <td>wto</td>
+            <td>sro</td>
+            <td>czw</td>
+            <td>pia</td>
+            <td>sob</td>
+            <td>nie</td>
         </tr>
         <tr>
-          <td>Wtorek</td>
-          <td>Biologia</td>
-          <td>Chemia</td>
-          <td>Fizyka</td>
-          <td>—</td>
-          <td>Plastyka</td>
+            <td>7-8</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
-          <td>Środa</td>
-          <td>Geografia</td>
-          <td>Matematyka</td>
-          <td>Informatyka</td>
-          <td>WF</td>
-          <td>—</td>
+            <td>8-9</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
-          <td>Czwartek</td>
-          <td>J. angielski</td>
-          <td>Fizyka</td>
-          <td>Chemia</td>
-          <td>Muzyka</td>
-          <td>—</td>
+            <td>9-10</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
-          <td>Piątek</td>
-          <td>Religia</td>
-          <td>Historia</td>
-          <td>Matematyka</td>
-          <td>J. polski</td>
-          <td>WOS</td>
+            <td>10-11</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
-      </tbody>
+        <tr>
+            <td>11-12</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>12-13</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
     </table>
-
-    <h2>🧾 Lista obecności</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Nr</th>
-          <th>Imię i nazwisko</th>
-          <th>01.03</th>
-          <th>08.03</th>
-          <th>15.03</th>
-          <th>22.03</th>
-          <th>29.03</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>1</td><td>Anna Kowalska</td><td>✔️</td><td>✔️</td><td>❌</td><td>✔️</td><td>✔️</td></tr>
-        <tr><td>2</td><td>Jan Nowak</td><td>✔️</td><td>❌</td><td>✔️</td><td>✔️</td><td>✔️</td></tr>
-        <tr><td>3</td><td>Kamil Wiśniewski</td><td>❌</td><td>✔️</td><td>✔️</td><td>❌</td><td>✔️</td></tr>
-        <tr><td>4</td><td>Ola Malinowska</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td></tr>
-        <tr><td>5</td><td>Piotr Zieliński</td><td>✔️</td><td>✔️</td><td>✔️</td><td>❌</td><td>❌</td></tr>
-      </tbody>
-    </table>
-  </main>
-
 </body>
 </html>
